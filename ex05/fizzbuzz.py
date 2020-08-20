@@ -10,11 +10,26 @@ elif n%4 == 0 and n%7 == 0:
 	print('FizzBuzz')
 
 	
->>> n = 4
 >>> n = int(input())
 4
->>> print n
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(n)?
->>> print(n)
-4
+>>> if n%4 == 0:
+	print('Fizz')
+elif n%7 == 0:
+	print('Buzz')
+elif n%4 == 0 and n%7 == 0:
+	print('FizzBuzz')
+
+	
+Fizz
+>>> n = int(input())
+28
+>>> if n%4 == 0:
+	print('Fizz')
+elif n%7 == 0:
+	print('Buzz')
+elif n%4 == 0 and n%7 == 0:
+	print('FizzBuzz')
+
+	
+Fizz
 >>> 
